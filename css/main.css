@@ -1,7 +1,7 @@
-body {
+#body {
 	padding: 0px;
-	background: black;
-	color: white;
+	background: white;
+	color: black;
 	overflow-y: hidden;
 }
 
@@ -16,7 +16,7 @@ h1 {
 a {
 	font-size: 1em;
 	font-family: 'Baloo 2', cursive;
-	color: white;
+	color: blue;
 }
 
 #notSupported {
