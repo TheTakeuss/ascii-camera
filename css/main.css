@@ -1,7 +1,8 @@
 body {
-	padding: 50px;
+	padding: 0px;
 	background: black;
 	color: white;
+	overflow-y: hidden;
 }
 
 h1 {
@@ -10,6 +11,12 @@ h1 {
 	font-weight: 300;
 	color: #999;
 	text-align: center;
+}
+
+a {
+	font-size: 1em;
+	font-family: 'Baloo 2', cursive;
+	color: white;
 }
 
 #notSupported {
@@ -36,9 +43,6 @@ h1 {
 
 
 #button {
-	display: none;
-	margin: 10px auto;
-	padding: 10px 20px;
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
 	background-color:#33bdef;
@@ -48,11 +52,12 @@ h1 {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:28px;
+	font-size:15px;
 	font-weight:bold;
-	padding:2px 8px;
+	padding:2px 6px;
 	text-decoration:none;
 	text-shadow:0px -1px 0px #5b6178;
+	margin-top: -10px;
 }
 #button:hover {
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
