@@ -18,14 +18,7 @@ ASCII Camera uses the HTML5 getUserMedia API to transform a video stream from yo
 * Camera input is done using the [camera.js library](https://github.com/idevelop/camera.js).
 * ASCII transformation is adapted from [jsascii library](http://www.nihilogic.dk/labs/jsascii/) by [Jacob Seidelin](http://blog.nihilogic.dk/).
 
-## Author
+## Creators
 
-**Andrei Gheorghe**
-
-* [About me](https://andrei.codes)
-* LinkedIn: [linkedin.com/in/idevelop](http://www.linkedin.com/in/idevelop)
-* Twitter: [@idevelop](http://twitter.com/idevelop)
-
-## License
-
-- This code is licensed under the MIT License.
+* Based on https://github.com/idevelop/ascii-camera
+* Original Author: https://github.com/idevelop
