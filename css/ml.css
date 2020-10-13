@@ -1,6 +1,6 @@
 section.headerml {
     position: relative;
-    height: 90vh;
+    height: 94vh;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -11,13 +11,13 @@ section.headerml {
 }
 
 .textheaderml {
-    padding-top: 1.5em;
+    padding-top: 2.5em;
 
 }
 
 .textheaderml h1 {
     font-family: 'Baloo 2', cursive;
-    font-size: 2.5em;
+    font-size: 6em;
 }
 
 .textheaderml mark {
@@ -36,6 +36,11 @@ section.headerml {
     
 }
 
+.box p {
+    font-size: 1.8em;
+    color: darkred;
+}
+
 .box1 {
     position: center;
     text-align: center;
@@ -46,7 +51,7 @@ section.headerml {
 
 .box1 p {
     color: black;
-    font-size: 0.75em;
+    font-size: 2.5em;
 }
 
 .box a {
