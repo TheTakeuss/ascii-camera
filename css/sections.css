@@ -27,3 +27,19 @@ section.header {
 .textheader mark {
     background-color: white;
 }
+
+
+
+
+
+
+
+section.footer {
+    position: relative;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 0px 6em #53514f;
+}
