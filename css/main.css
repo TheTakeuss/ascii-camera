@@ -2,7 +2,6 @@
 	padding: 0px;
 	background: white;
 	color: black;
-	overflow-y: hidden;
 }
 
 .message{
@@ -61,3 +60,5 @@ p {
  	left: 0px;
   	width: 300px;
 }
+
+
