@@ -1,6 +1,6 @@
 var body = document.getElementById("body"),
 	color1 = document.getElementById('color1'); 
-    color2 = document.getElementById('color2'); 
+  color2 = document.getElementById('color2'); 
 
 function black () {
   var button = this;
@@ -15,8 +15,8 @@ function clearcolor1 (button) {
 
 function white () {
   var button = this;
-  body.style.background = "#FFFFFF";
-  body.style.color = "#000000";
+  body.style.background = "#FFFFFF"; // Modifie background
+  body.style.color = "#000000"; // Modifie couleur caractères ...
   button.setAttribute("disabled", "true");
   setTimeout(clearcolor2, 1000, button);
 }
