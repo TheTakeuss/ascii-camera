@@ -5,27 +5,46 @@
 	<meta charset="utf-8" />
 	 <link rel="stylesheet" href="css/main.css"/>
 	 <link rel="stylesheet" href="css/button.css"/>
+	 <link rel="stylesheet" href="css/header.css"/>
 	<link href="/favicon.png" rel="icon" type="image/png" />
 	<meta name="mobile-web-app-capable" content="yes">
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
 </head>
-<body id="body">
-	<h1 id="info">Please allow this page to access your camera.</h1>
-	<div id="notSupported">
-		<h1>Your browser does not support the Camera API.</h1>
-	</div>
+<body>
 
-	<pre id="ascii"></pre>
-	<center><button id="button">start</button>
-			<button type="button" id="color1", class="colorbutton">Black</button>
-			<button type="button" id="color2", class="colorbutton">White</button>
-	</center>
+	<!-- Header/Presentation -->
+	<section class="header">
+		<div class="textheader">
+				<h1><mark>&nbsp;Ascii-Camera.tools&nbsp;</mark></h1>
+		</div>
+
+
+
+
+
+
+	</section>
 	
-	<center><p>
+	<!-- APP/Body -->
+	<section id="body"> 
+
+		<h1 id="info" class="message">Please allow this page to access your camera.</h1>
+	<div id="notSupported">
+		<h1 class="message">Your browser does not support the Camera API.</h1>
+	</div>
+	<pre id="ascii"></pre>
+	<center><button id="button" class="center">start</button>
+			<button type="button" id="color1", class="colorbutton center">Black</button>
+			<button type="button" id="color2", class="colorbutton center">White</button>
+	</center>
+
+	<center><footer>
 		<a href="https://github.com/TheTakeuss/ascii-camera" target="_blank">View on GitHub</a> /
 		<a href="http://idevelop.github.com/" target="_blank">Original Version by Idevelop</a> /
 		<a href="tuto/" target="_blank">Tuto</a>
-	</p></center>
+	</footer></center>
+
+	</section>
 	<script src="script/camera.js"></script>
 	<script src="script/ascii.js"></script>
 	<script src="script/app.js"></script>

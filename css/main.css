@@ -5,8 +5,8 @@
 	overflow-y: hidden;
 }
 
-h1 {
-	font-family: 'Helvetica neue', 'Helvetica', 'Arial', sans-serif;
+.message{
+	font-family: 'Baloo 2', cursive;
 	font-size: 48px;
 	font-weight: 300;
 	color: #999;
@@ -39,6 +39,11 @@ a {
 	line-height: 10px;
 	letter-spacing: -1.5px;
 	text-align: center;
+	margin-top: 10px;
 }
 
+.center {
+	align-items: center;
+	display: inline;
+}
 

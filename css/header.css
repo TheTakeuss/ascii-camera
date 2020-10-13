@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section.header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.textheader {
+    z-index: 2;
+    top: 10em;
+}
+
+.textheader h1 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 6em;
+
+}
+
+.textheader mark {
+    background-color: white;
+}
