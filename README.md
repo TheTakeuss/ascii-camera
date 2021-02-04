@@ -9,7 +9,7 @@ ASCII Camera uses the HTML5 getUserMedia API to transform a video stream from yo
 * Tutorials
 * others
 
-<img src="https://files.takeus-prod.eu/ressources/ascii-camera/screen.png" />
+<img src="https://files.takeus-prod.eu/files/ressources/ascii-camera/screen.png" />
 
 ## Creators
 
